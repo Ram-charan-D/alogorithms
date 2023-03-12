@@ -66,5 +66,5 @@ export function countUniqueValues(arr) {
     }
     j++;
   }
-  return arr[i];
+  return arr[i] + 1;
 }
