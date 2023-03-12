@@ -51,8 +51,8 @@ export function sumZero(arr) {
 
 export function countUniqueValues(arr) {
   const length = arr.length;
-  let i = arr[0];
-  let j = arr[1];
+  let i = 0;
+  let j = 1;
 
   if (length === 0) return 0;
   if (length === 1) return 1;
@@ -66,5 +66,8 @@ export function countUniqueValues(arr) {
     }
     j++;
   }
+  console.log(i)
+  console.log(j)
+  console.log(arr)
   return arr[i] + 1;
 }
