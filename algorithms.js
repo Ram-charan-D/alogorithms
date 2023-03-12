@@ -62,11 +62,9 @@ export function countUniqueValues(arr) {
   while (j < length) {
     if (arr[i] !== arr[j]) {
       arr[i] = i + 1;
-      i = i + 1;
+      i++;
     }
-    if (arr[i] === arr[j]) {
-      j = j + 1;
-    }
+    j++;
   }
   return arr[i];
 }
