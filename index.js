@@ -1,5 +1,3 @@
-// Import stylesheets
-import './style.css';
 import {
   frequencyCounter,
   anagram,
@@ -7,9 +5,8 @@ import {
   countUniqueValues,
 } from './algorithms.js';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const appDiv = document.getElementById('root');
+appDiv.innerHTML = `<h1>Basic Algorithms</h1>`;
 
 // console.log(frequencyCounter([1, 1, 2, 3], [9, 1, 1, 4]));
 

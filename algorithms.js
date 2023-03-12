@@ -68,7 +68,5 @@ export function countUniqueValues(arr) {
       j = j + 1;
     }
   }
-  console.log(arr);
   return arr[i];
 }
-console.log(countUniqueValues([1, 1, 2, 2, 3, 4]));
